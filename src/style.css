@@ -436,3 +436,16 @@ footer .credit span{
 
 }
 
+.image-container {
+  display: flex;
+  justify-content: flex-start; /* Memindahkan konten ke sebelah kiri */
+  align-items: center;
+  gap: 20px; /* Jarak antara gambar-gambar */
+  margin-top: 50px;
+}
+
+.image-container img {
+  width: 100%;
+  max-width: 80px;
+  height: auto; /* Untuk menjaga aspek rasio gambar */
+}
